@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://code.jquery.com/jquery-3.5.1.js">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js">
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="main">
+      <div class="judul" id="judul"></div>
+      <table id="tableStudent">
+        <thead>
+          <tr class="row-menu">
+            <th class="menu">MENU</th>
+            <th class="harga">HARGA</th>
+          </tr>
+        </thead>
+        <tbody id="mySelect">
+          <tr class="row" onmousedown="RowClick(this,false);">
+            <td class="menu">Cappucino</td>
+            <td class="harga">Rp 35.000</td>
+          </tr>
+          <tr class="row" onmousedown="RowClick(this,false);">
+            <td class="menu">Green Tea Latte</td>
+            <td class="harga">Rp 40.000</td>
+          </tr>
+          <tr class="row" onmousedown="RowClick(this,false);">
+            <td class="menu">Fish And Chips</td>
+            <td class="harga">Rp 50.000</td>
+          </tr>
+          <tr class="row" onmousedown="RowClick(this,false);">
+            <td class="menu">Tuna Sandwich</td>
+            <td class="harga">Rp 45.000</td>
+          </tr>
+          <tr class="row" onmousedown="RowClick(this,false);">
+            <td class="menu">Mineral Water</td>
+            <td class="harga">Rp 8.000</td>
+          </tr>
+          <tr class="row" onmousedown="RowClick(this,false);">
+            <td class="menu">French Fries</td>
+            <td class="harga">Rp 18.000</td>
+          </tr>
+        </tbody>
+        <tr class="row-total">
+          <td class="nama-total">Total</td>
+          <td class="harga-total">Rp </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
+
+</html>

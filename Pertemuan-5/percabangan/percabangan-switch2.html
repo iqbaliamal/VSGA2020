@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PERCABANGAN SWITCH CASE 2</title>
+</head>
+
+<body>
+  <script>
+    var nilai = prompt("Masukkan nilai anda! ");
+    var grade = "";
+
+    switch (true) {
+      case nilai <= 100:
+        grade = "A";
+        break;
+      case nilai < 80:
+        grade = "B+";
+        break;
+      case nilai < 70:
+        grade = "B";
+        break;
+      case nilai < 60:
+        grade = "C+";
+        break;
+      case nilai < 50:
+        grade = "C";
+        break;
+      case nilai < 40:
+        grade = "D";
+        break;
+      case nilai < 30:
+        grade = "E";
+        break;
+      case nilai > 100:
+        grade = "NILAI YANG ANDA MASUKKAN SALAH!";
+        break;
+      default:
+        grade = "F";
+    }
+
+    document.write(`<p>Grade anda adalah: ${grade}</p>`)
+  </script>
+</body>
+
+</html>

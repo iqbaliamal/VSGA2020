@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MENCETAK ARRAY DENGAN PERULANGAN</title>
+</head>
+
+<body>
+  <script>
+    // membuat array
+    var produk = ["HP", "LAMPU", "BATRE", "SENTER"];
+
+    document.write("<h3>Daftar Produk</h3>");
+    document.write("<ol>");
+
+    // mencetak array dengan for
+    // for (let i = 0; i < produk.length; i++) {
+    //   document.write(`<li>${produk[i]}</li>`);
+    // }
+    // document.write("</ol>");
+
+    // mencetak array dengan forEach
+    produk.forEach((data) => {
+      document.write(`<li>${data}</li>`);
+    });
+
+    document.write("</ol>");
+  </script>
+</body>
+
+</html>

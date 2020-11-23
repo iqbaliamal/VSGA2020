@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PERULANGAN WHILE (UNCOUNTED LOOP)</title>
+</head>
+
+<body>
+  <script>
+    // var ulangi = confirm("apakah anda ingin mengulangi?");
+    // var count = 0;
+
+    // while (ulangi) {
+    //   var jawab = confirm("apakah anda ingin mengulangi?");
+    //   count++;
+    //   if (jawab == false) {
+    //     ulangi = false;
+    //   }
+    // }
+
+    // document.write("<p>Perulangan sudah dilakukan sebanyak : " + count + "</p>")
+
+    // ATAU SEDERHANA NYA SEPERTI INI
+    var ulangi = confirm("apakah anda ingin mengulangi?");
+    var count = 0;
+    while (ulangi) {
+      count++;
+      ulangi = confirm("Apakah anda ingin mengulangi?");
+    }
+
+    document.write("<p>Perulangan sudah dilakukan sebanyak : " + count + "</p>")
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keyword this</title>
+  <script>
+    // Kata kunci this digunakan untuk mengakses properti dan method dari dalam method (objek). 
+    var person = {
+      firstname: "iqbal",
+      lastname: "ikhlasul amal",
+
+      showname: function () {
+        alert(`Nama: ${this.firstname} ${this.lastname}`);
+      }
+    };
+
+    person.showname();
+  </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

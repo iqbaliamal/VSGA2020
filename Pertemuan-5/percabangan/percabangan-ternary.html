@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PERCABANGAN OPERATOR TERNARY</title>
+</head>
+
+<body>
+  <script>
+    var jawab = prompt("Apakah Jakarta ibukota dari Indonesia? IYA ATAU TIDAK");
+    var jawaban = (jawab.toLocaleUpperCase() == "IYA") ? "BENAR" : "SALAH";
+    // Apabila kondisi yang ada di dalam kurung—(jwb.toUpperCase() == "IYA")—bernilai true, maka nanti isi dari variabel jawaban akan sama dengan "Benar".
+    // Tapi kalau bernilai false, maka variabel jawaban akan berisi "Salah". 
+
+    document.write(`Jawaban Anda adalah : <b>${jawaban}</b>`);
+  </script>
+</body>
+
+</html>

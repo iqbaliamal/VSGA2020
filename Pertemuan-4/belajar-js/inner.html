@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inner HTML</title>
+</head>
+
+<body>
+  <!-- innerHTML adalah sebuah atribut di dalam (objek) elemen HTML yang berisi string HTML.
+Dengan innerHTML, kita dapat menampilkan output ke elemen yang lebih spesifik.
+ -->
+  <h1>Belajar Javascript pemula!</h1>
+  <div id="hasil-output"></div>
+
+  <script>
+    // membuat objek element
+    var hasil = document.getElementById("hasil-output");
+
+    // menampilkan hasil output ke elemen hasil
+    hasil.innerHTML = "<p>Aku Suka Javascript</p>"
+  </script>
+</body>
+
+</html>

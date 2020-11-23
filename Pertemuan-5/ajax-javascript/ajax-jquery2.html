@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BELAJAR AJAX DENGAN JQUERY</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+
+<body>
+  <h1>Load Data</h1>
+  <img id="#avatar" src="" alt="" width="100" height="100">
+  <br>
+  <h3 id="name"></h3>
+  <p id="location"></p>
+
+
+  <script>
+    var url = "https://api.github.com/users/petanicode";
+    $.get(url, function (data, status) {
+      $("#avatar").attr("src", data.avatar_url);
+      $("#name").attr(data.name);
+      $("#location").attr(data.location);
+    })
+  </script>
+</body>
+
+</html>

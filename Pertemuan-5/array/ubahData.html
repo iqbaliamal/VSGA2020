@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MENGUBAH DATA ARRAY</title>
+</head>
+
+<body>
+  <script>
+    var buah = ["Mangga", "Apel", "Nanas", "Jeruk"];
+
+    // MENGISI menggunakan index (menambah sesuai nomor array)
+    // buah[4] = "Semangka";
+
+    // MENGISI menggunakan push (menambah di paling belakang)
+    // buah.push("Salak");
+
+    // MENGHAPUS menggunakan delete (meninggalkan ruang kosong pada array yang dihapus)
+    // delete buah[2];
+
+    // MENGHAPUS menggunakan pop (menghapus paling belakang)
+    // buah.pop();
+
+    // MENGHAPUS menggunakan shift (menghapus paling depan)
+    // buah.shift();
+
+    // MENGHAPUS menggunakan splice array.splice(<index>, <jumlah data yang di hapus>)
+    // buah.splice(2, 1);
+
+    // MENGUBAH isi array sesuai index
+    // buah[2] = "Semangka";
+
+    // MENGUBAH
+
+
+    document.write("<h3>Daftar Buah</h3>");
+    document.write("<ol>");
+    buah.forEach((data) => {
+      document.write(`<li>${data}</li>`);
+    });
+
+    document.write("</ol>");
+  </script>
+</body>
+
+</html>

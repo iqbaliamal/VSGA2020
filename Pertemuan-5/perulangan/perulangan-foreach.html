@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PERULANGAN foreach & ForEach() (COUNTED LOOP)</title>
+</head>
+
+<body>
+  <script>
+    // var language = [
+    //   "Javascript",
+    //   "PHP",
+    //   "HTML",
+    //   "CSS",
+    // ];
+    // PERULANGAN foreach TANPA OPERATOR "in"
+    // for (let i = 0; i < language.length; i++) {
+    //   document.write(i + ". " + language[i] + "<br>");
+    // }
+
+    // LEBIH SEDERHANA LAGI MENGGUNAKAN OPERATOR "in"
+    // for (i in language) {
+    //   document.write(i + ". " + language[i] + "<br>");
+    // }
+
+
+    //==========================================================================================
+    // PERULANGAN MENGGUNAKAN METHOD forEach() dari array
+    // ini array
+    var days = ["Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu", "Ahad"];
+
+    // ini method foreach
+    // days.forEach(function (days) {
+    //   document.write("<p>" + days + "</p>");
+    // });
+
+    // atau simpel nya pake arrow seperti ini
+    days.forEach((days) => {
+      document.write("<p>" + days + "</p>");
+    });
+  </script>
+</body>
+
+</html>

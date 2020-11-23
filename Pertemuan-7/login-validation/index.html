@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Validation Javascript</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="main">
+      <div id="pesan_error">
+      </div>
+      <div class="tulisan-login">Login Validation</div>
+      <form id="myform" onsubmit="return validation()">
+        <label for="">Username</label>
+        <input type="text" class="input" placeholder="Username" id="username" required>
+        <label for="">Password</label>
+        <input type="password" class="input" placeholder="Password" id="password" required>
+        <input type="submit" class="btn" value="Login" id="submit">
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

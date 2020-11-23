@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito);
+
+body {
+  background: #4e54c8;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8f94fb, #4e54c8);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 35px auto;
+  font-family: 'Nunito';
+}
+
+.main {
+  width: 300px;
+  background: white;
+  border-radius: 5px;
+  /*meletakkan form ke tengah*/
+  margin: 80px auto;
+  padding: 30px 20px;
+  box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 40px 40px rgba(0, 0, 0, 0.12);
+}
+
+.tulisan-login {
+  margin: 20px auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20pt;
+  text-transform: uppercase;
+}
+
+label {
+  font-size: 11pt;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #318aff;
+  color: white;
+  font-size: 12pt;
+  font-weight: bold;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+
+.pesan {
+  width: 80%;
+  background: #fd1d7a;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 20px;
+}

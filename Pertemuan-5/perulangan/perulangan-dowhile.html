@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PERULANGAN DO WHILE (UNCOUNTED)</title>
+</head>
+
+<body>
+  <script>
+    var ulangi = confirm("apakah anda ingin mengulangi?");
+    var count = 0;
+
+    do {
+      // --- BLOK CODE YANG AKAN DI ULANG ---, jadi mengulang satu kali dulu baru mengecek berikutnya di ulang atau tidak
+      count++;
+      ulangi = confirm("apakah anda ingin mengulangi?");
+    } while (ulangi);
+
+    document.write("<p>Perulangan sudah dilakukan sebanyak : " + count + " kali </p>")
+  </script>
+</body>
+
+</html>
